@@ -128,7 +128,7 @@ function Login() {
   return (
     <div style={{ textAlign: 'center' }}>
       {
-        user.isSignedIn ?
+        loggedInUser.isSignedIn ?
           <button onClick={signOut}>Sign Out</button> :
           <button onClick={googleSignIn}>Sign In</button>
 
